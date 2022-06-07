@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Matheus Affonso",
+    "email": "matheus.loubach@gmail.com"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "@koa/router": "^10.1.1",
+    "@prisma/client": "^3.14.0",
+    "bcrypt": "^5.0.1",
+    "db": "^3.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "push": "^0.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.14.0"
+  }
+}
